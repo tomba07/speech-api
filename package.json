@@ -1,15 +1,15 @@
 {
-  "name": "speach",
+  "name": "speech-api",
   "version": "1.0.0",
+  "description": "Node API for OpenAI speech generation",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "openai": "^4.89.1"
+    "express": "^4.18.2",
+    "openai": "^4.30.0",
+    "cors": "^2.8.5"
   }
 }
